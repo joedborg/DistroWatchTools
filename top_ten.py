@@ -5,6 +5,11 @@ class DistroWatchTopTen(object):
     """
     Get the top 10 Linux distros from DistroWatch
     and make some exportable formats for it.
+
+    This was written by Joseph Borg - http://github.com/joedborg - and
+    is completely free (libre) to do what you want with; please just 
+    reference my git page in any copy.
+    It requires BeautifulSoup which can be found at http://www.crummy.com/software/BeautifulSoup
     """
     def __init__(self):
         """
